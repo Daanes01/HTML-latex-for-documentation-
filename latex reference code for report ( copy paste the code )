@@ -1,0 +1,250 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{xcolor}
+ 
+% Page geometry
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+ 
+% Line spacing
+\onehalfspacing
+ 
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Chiller 3 Panel Dent Damage Report}
+\fancyhead[R]{CDHH Trane Chiller -- SGW Google Data Center}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+ 
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+ 
+% Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+}
+ 
+% Placeholder command for pictures
+\newcommand{\imgplaceholder}[2]{%
+\fbox{%
+\begin{minipage}{0.9\textwidth}
+\centering
+\vspace{2.5cm}
+\textbf{Paste your this picture here}\\[0.3cm]
+\textit{#1}\\[0.2cm]
+#2
+\vspace{2.5cm}
+\end{minipage}%
+}%
+}
+ 
+\begin{document}
+ 
+% ==================== COVER PAGE ====================
+\begin{titlepage}
+    \centering
+    \vspace*{0.1cm}
+ 
+    % Company Logo
+    \includegraphics[width=0.35\textwidth]{company-logo.png}
+    \vspace{0.3cm}
+ 
+    {\large \textbf{YOUR COMPANY NAME}}
+    \vspace{1.5cm}
+ 
+    {\Large \textbf{CHILLER DAMAGE ASSESSMENT REPORT}}
+    \vspace{0.3cm}
+ 
+    {\LARGE \textbf{Chiller 3 Panel Dent Damage Report}}
+    \vspace{0.5cm}
+ 
+    {\large CDHH Trane Chiller -- SGW Google Data Center}
+    \vspace{2cm}
+ 
+    \textbf{Date:} \today
+ 
+\end{titlepage}
+ 
+% ==================== TABLE OF CONTENTS ====================
+\tableofcontents
+\newpage
+ 
+% ==================== LIST OF FIGURES ====================
+\listoffigures
+\newpage
+ 
+% ==================== 1. INTRODUCTION ====================
+\section{Introduction}
+ 
+This report is prepared to document the damage found on the panel doors of Chiller 3 upon arrival at the SGW Google Data Center site. The chiller is a CDHH Trane unit intended for installation at the site.
+ 
+During the initial inspection at the warehouse prior to loading, no damage was observed on the panel doors. However, upon arrival at the site, the right and left panel doors were found to be dented. The dent is considered severe, and the frame that holds the door is also bent. As a result, the door is difficult to open, which obstructs inspection and any maintenance work that requires the panel door to be opened.
+ 
+This report presents the identified damage, the possible causes, the repairability assessment, the impact on chiller performance, and the recommended preventive measures. The report focuses specifically on the dented panel doors. Other minor findings reported by the Samsung inspection team are noted briefly.
+ 
+\newpage
+ 
+% ==================== 2. CHILLER IDENTIFICATION ====================
+\section{Chiller Identification}
+ 
+The affected unit is a CDHH Trane chiller delivered to the SGW Google Data Center. The chiller model and serial information are shown on the manufacturer's identification sticker affixed to the unit.
+ 
+\begin{figure}[H]
+\centering
+\imgplaceholder{Chiller Model Information Sticker}{Manufacturer identification sticker showing model and serial information.}
+\caption{Chiller model information sticker.}
+\label{fig:model-sticker}
+\end{figure}
+ 
+\newpage
+ 
+% ==================== 3. DAMAGE ASSESSMENT ====================
+\section{Damage Assessment}
+ 
+\subsection{Right Panel Door -- Dented (Open Door View)}
+ 
+\begin{figure}[H]
+\centering
+\imgplaceholder{Right Panel Door -- Open Door View}{Dented right panel door, viewed with the door open.}
+\caption{Right panel door dent, open door view.}
+\label{fig:right-open}
+\end{figure}
+ 
+The right panel door was found dented. The dent is visible on the outer skin of the door panel.
+ 
+\subsection{Left Panel Door -- Dented (Open Door View)}
+ 
+\begin{figure}[H]
+\centering
+\imgplaceholder{Left Panel Door -- Open Door View}{Dented left panel door, viewed with the door open.}
+\caption{Left panel door dent, open door view.}
+\label{fig:left-open}
+\end{figure}
+ 
+The left panel door was also found dented. The frame that holds the door is bent, contributing to the difficulty in opening the door.
+ 
+\subsection{Left Panel Door -- Close-Up View of Dent}
+ 
+\begin{figure}[H]
+\centering
+\imgplaceholder{Left Panel Door -- Close-Up View of Dent}{Close-up view showing the severity of the dent on the left panel door.}
+\caption{Close-up view of the dent on the left panel door.}
+\label{fig:left-closeup}
+\end{figure}
+ 
+A close-up view of the dent confirms the severity of the damage on the left panel door. The deformation is significant enough to affect the door's alignment.
+ 
+\subsection{Left Panel Door -- Closed Door View}
+ 
+\begin{figure}[H]
+\centering
+\imgplaceholder{Left Panel Door -- Closed Door View}{Dented left panel door in the closed position.}
+\caption{Left panel door dent, closed door view.}
+\label{fig:left-closed}
+\end{figure}
+ 
+With the door closed, the misalignment caused by the dent is clearly visible. The door can still be closed, but it is difficult to open.
+ 
+\subsection{Summary of Panel Damage}
+ 
+Both the right and left panel doors are dented. The frame that holds the door is also bent. The dent on the left panel door is more severe. The door can be closed, but it is difficult to open, which obstructs inspection and maintenance work that requires the panel door to be opened.
+ 
+\newpage
+ 
+% ==================== 4. POSSIBLE CAUSES OF DAMAGE ====================
+\section{Possible Causes of Damage}
+ 
+The panel doors were inspected at the warehouse before loading, and no damage was observed on the panel doors at that time. No photographic record was taken during that inspection because photos are only taken when damage is identified.
+ 
+Upon arrival at the site, the right and left panel doors were found dented. The chiller was transported on a trailer and secured with chains attached to the unit. The panel doors were not protected with any wrapping, foam, or bracing during transportation. The chains were most likely tightened too tightly against the chiller body, causing the dent on the panel doors.
+ 
+The team was present at the site when the chiller was lifted from the trailer to the chiller landing platform and observed no problem during that stage. Therefore, the damage most probably occurred during the loading of the chiller onto the trailer, when the chains were secured.
+ 
+In summary, the possible causes of the damage are:
+\begin{itemize}
+    \item The chiller was secured using chains on the trailer without any protective wrapping or bracing on the panel doors.
+    \item The chains were tightened too tightly against the chiller body.
+    \item The damage most probably occurred during loading onto the trailer, as no issue was observed during unloading and lifting at the site.
+\end{itemize}
+ 
+\newpage
+ 
+% ==================== 5. REPAIRABILITY ASSESSMENT ====================
+\section{Repairability Assessment}
+ 
+The dented panel doors are repairable. The damage is limited to the outer skin of the panel door and the frame that holds the door. The door can still be closed, but it is difficult to open due to the misalignment caused by the dent and the bent frame.
+ 
+The intended repair method is panel beating or dent pulling to restore the shape of the dented area, followed by adjustment of the door so that it opens smoothly. The plan is to tap the dented part back into shape, and not to replace the panel door.
+ 
+The following repair approach is proposed:
+\begin{itemize}
+    \item Panel beating or dent pulling on the dented area of the right and left panel doors.
+    \item Adjustment of the door frame and hinge alignment so that the door opens smoothly.
+    \item Verification that the door closes and latches correctly after repair.
+\end{itemize}
+ 
+No replacement of the panel doors is required.
+ 
+\newpage
+ 
+% ==================== 6. IMPACT ON CHILLER PERFORMANCE ====================
+\section{Impact on Chiller Performance}
+ 
+The dent is located only on the electrical panel door. It does not affect the airflow inside the chiller, and it does not impact the cooling performance of the chiller.
+ 
+Based on the inspection, the dent is cosmetic and does not affect chiller cooling performance, but it does obstruct maintenance access. The only affected area is the panel door. The door can be closed, but it is difficult to open, which obstructs inspection and any maintenance work that requires the panel door to be opened.
+ 
+\newpage
+ 
+% ==================== 7. OTHER OBSERVATIONS FROM INSPECTION ====================
+\section{Other Observations from Inspection}
+ 
+The inspection team from Samsung reported that, apart from the dented panel doors, there are no other damages on the chiller. Minor rusted parts were also observed. These rusted parts can be treated by spraying and can be settled easily.
+ 
+The Samsung inspection team confirmed that there are no other damages besides the dented panel doors and the minor rusted parts.
+ 
+\newpage
+ 
+% ==================== 8. RECOMMENDATIONS AND PREVENTIVE MEASURES ====================
+\section{Recommendations and Preventive Measures}
+ 
+\subsection{Immediate Actions for Chiller 3}
+ 
+The dented panel doors should be repaired by panel beating or dent pulling, and the door frame and hinge alignment should be adjusted so that the door opens smoothly. The minor rusted parts identified by the Samsung inspection team should be treated by spraying.
+ 
+\subsection{Improved Packing and Protection for Future Shipments}
+ 
+Panel doors and other exposed surfaces should be protected with wrapping, foam, or wooden bracing before transportation. Chains should not be tightened directly against the chiller body without a protective layer in between.
+ 
+\subsection{Inspection Protocol Enhancements}
+ 
+Photographic records should be taken at every inspection stage, including the condition of the chiller at the warehouse before loading, during loading, and upon arrival at site. This will help identify the stage at which any damage occurs and support any future claims.
+ 
+\newpage
+ 
+% ==================== 9. CONCLUSION ====================
+\section{Conclusion}
+ 
+This report documents the damage found on the panel doors of Chiller 3 upon arrival at the SGW Google Data Center site. Both the right and left panel doors are dented, and the frame that holds the door is bent. The door can be closed, but it is difficult to open, which obstructs inspection and maintenance work.
+ 
+The damage is repairable by panel beating or dent pulling, followed by adjustment of the door so that it opens smoothly. No replacement of the panel doors is required. The dent does not affect the airflow or cooling performance of the chiller.
+ 
+The Samsung inspection team confirmed that there are no other damages besides the dented panel doors and minor rusted parts, which can be treated by spraying. Preventive measures, including improved packing and protection during transportation and enhanced inspection protocols, are recommended to avoid similar damage in the future.
+ 
+\end{document}
