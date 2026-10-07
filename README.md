@@ -12,3 +12,5 @@ this is not a template , just a copy of latex code from another report. its a re
 - and WALLAH , your report is ready. 
 
 use the method above to do the report. if there any convenient way, please let me know , im still learning and we learn together. Peace Out. boi-boi
+
+# NOTE : the code is actually a report , i usually use the code as reference, dont afraid if a report just pop up after you copy paste it. HEHE :) 
