@@ -1,0 +1,17 @@
+% for the table custimization 
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5} 
+\begin{tabular}{|p{6cm}|p{10cm}|} % play with this line for get the table with the needed length
+\hline
+\textbf{Description} & \textbf{Information} \\
+\hline
+Chiller & Chiller 5 \\
+\hline
+Serial Number & G26F02901 \\
+\hline
+\end{tabular}
+\caption{Chiller 5 serial information.}
+\label{tab:chiller5-serial}
+\end{table}
